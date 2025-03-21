@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cholita Runner - Descripción</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container fade-in">
+        <h1 class="title fade-in">Cholita Runner</h1>
+        <h2 class="fade-in">Descripción del Videojuego</h2>
+        <p class="fade-in"><span class="highlight">Género:</span> Aventura, acción y plataformas en 2D con mecánicas de endless runner.</p>
+        <p class="fade-in"><span class="highlight">Plataforma:</span> PC.</p>
+
+        <button class="btn fade-in" onclick="verPersonajes()">Ver Personajes</button>
+        
+        <p class="fade-in">El juego está inspirado en la cultura andina y se desarrolla en escenarios icónicos de <strong>La Paz, Bolivia</strong>. El jugador asume el papel de <strong>Cholita</strong>, quien debe entregar una encomienda antes del anochecer, sorteando diversos obstáculos.</p>
+        
+        <h2 class="fade-in">Mecánicas Principales</h2>
+        <div class="card-container fade-in">
+            <div class="card" onclick="mostrarDetalle('Movimiento Automático', 'Cholita corre sin detenerse, y el jugador debe saltar, deslizarse y esquivar.')">
+                <h3>Movimiento Automático</h3>
+            </div>
+            <div class="card" onclick="mostrarDetalle('Saltos y Acrobacias', 'Posibilidad de realizar saltos dobles y acrobáticos.')">
+                <h3>Saltos y Acrobacias</h3>
+            </div>
+            <div class="card" onclick="mostrarDetalle('Obstáculos Dinámicos', 'Minibuses, mercados, calles empinadas, techos resbaladizos y más.')">
+                <h3>Obstáculos Dinámicos</h3>
+            </div>
+            <div class="card" onclick="mostrarDetalle('Coleccionables y Power-Ups', 'Poncho de Viento, Hoja de Coca Energizante, Sombrero de Chola Protegido, Charango de la Suerte.')">
+                <h3>Coleccionables y Power-Ups</h3>
+            </div>
+        </div>
+        
+        <h2 class="fade-in">Historia y Contexto</h2>
+        <p class="fade-in">Cholita debe recorrer calles emblemáticas de La Paz, enfrentando desafíos como el tráfico de minibuses, vendedores ambulantes y calles empinadas. A lo largo de su viaje, descubrirá secretos de la cultura andina y desbloqueará nuevas habilidades.</p>
+        
+        <h2 class="fade-in">Público Objetivo</h2>
+        <p class="fade-in">El juego está dirigido a jugadores de todas las edades, especialmente aquellos interesados en la cultura andina y en juegos de ritmo rápido como Temple Run o Subway Surfers.</p>
+        
+        <div class="images fade-in">
+            <img src="fondito22.png" alt="Escena de Cholita Runner" onclick="expandirImagen(this)">
+            <img src="fondito23.png" alt="Gameplay de Cholita Runner" onclick="expandirImagen(this)">
+            <img src="chilita.png" alt="Personajes de Cholita Runner" onclick="expandirImagen(this)">
+        </div>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>
